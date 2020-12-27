@@ -49,8 +49,7 @@ function App() {
     if(weather==="Clouds"){
       setWeather("cloudy");
     }
-    //setVideoName(timeset+"_"+weather);
-    setVideoName('day_snow');
+    setVideoName(timeset+"_"+weather);
   },[timeset,weather])
 
   //loading page
