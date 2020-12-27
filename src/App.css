@@ -1,1 +1,40 @@
 
+.article{
+    height: 150px; width: 600px;
+    position: absolute;
+    top:50%; left: 50%;
+    margin-left: -300px;
+    margin-top:-160px;
+    color:white;
+}
+
+body{
+    position: relative;
+    width: 1536px;
+    height: 864px;
+}
+
+p{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+h1{
+    font-size:60px;
+}
+
+video{
+    width:1536px;
+    height: 864px;
+}
+
+.loading{
+    background:gray;
+    width: 1536px;
+    height: 864px;
+}
+
+.loading_font{
+    font-size:50px;
+    font-weight: 600;
+}
