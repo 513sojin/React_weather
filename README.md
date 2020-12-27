@@ -1,33 +1,21 @@
-# 마가렛의 두번째 인큐베이팅 과제
+# 날씨 api이용하기
+api를 가져와서 화면에 띄우기. 날씨에 따라 배경이 변하는 게 특징
 
-**저번에 만든 날씨앱을 React로 만드는것이에요~_~ (참고로 이번 리크루팅 과제가 이거에요..! 속닥속닥)**
+## 1. 기본상태
 
-![ezgif.com-video-to-gif](./ezgif.com-video-to-gif.gif)
+-비 오는 날인 경우
 
-바로 이렇게요..!!
+![image](https://user-images.githubusercontent.com/54045865/103175560-25c35600-48ae-11eb-8650-5f0fe3f4e469.png)
 
-### 과제 기능 수행 목록
 
-1. 위치정보를 받아와서
-2. 해당 위치정보의 날씨와 시간을 알려주면 됩니다
+-눈 오는 날인 경우
 
-여러분들은 App.js와 App.css만 고치면 된답니다...!
-뒷배경 영상들은 Public/weather_source에 저장해놓았습니다
-branch는 margaret_react 처럼 기존 닉네임뒤에 _react를 붙여서 파고 그곳에 push해주세요! 
+![image](https://user-images.githubusercontent.com/54045865/103175627-aeda8d00-48ae-11eb-94fb-675df5917d43.png)
 
-### 요구사항
+## 2. 구현
 
-1. 시계가 초단위로 흘러가며 10분마다 날씨 정보를 요청하고 반영할것
-2. react의 State를 적극적으로 이용할것
-3. 위치정보를 받아올 때까지 화면은 로딩중이라는 화면이 떠야함 (이것도 State로 구현 가능)
+- axios를 사용하여 api 요청.
 
-![loading](./loading.png)
+- useEffect함수 사용.
 
-### 권장사항
-
-1. ES6 이상 문법을 준수하세요
-2. React Hooks로 구현하세요
-
-### 과제 기한
-
-아무래도 리액트는 낯설기 때문에 8월 31일부터 매 회의마다 중간점검 들어가면서 DeadLine을 정해드릴겁니다~ 회의 전까지는 최소 한번 이상은 commit push 해주셔야합니다! 적극적인 회의 참여 부탁드려요ㅎㅎ
+![image](https://user-images.githubusercontent.com/54045865/103175643-d598c380-48ae-11eb-9c7c-f743f1799b70.png)
